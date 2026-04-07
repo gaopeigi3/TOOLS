@@ -1,0 +1,5 @@
+symlink:
+  - src: '/home/peigao/workspace/scRNA_pipeline/data/processed/merged.h5ad'
+    dst: '/home/peigao/workspace/Fine-tuning_pipeline/data/raw/merged.h5ad'
+  # - src: raw/b.h5ad
+  #   dst: data/input/b.h5ad
