@@ -1,5 +1,12 @@
+# python '/home/workstation/Projects/Tools/symlink/symlink.py' --config '/home/workstation/Projects/Tools/symlink/config.yaml'
+
 symlink:
-  - src: '/home/peigao/workspace/scRNA_pipeline/data/processed/merged.h5ad'
-    dst: '/home/peigao/workspace/Fine-tuning_pipeline/data/raw/merged.h5ad'
-  # - src: raw/b.h5ad
-  #   dst: data/input/b.h5ad
+  # - src: '/home/workstation/Projects/annotation/adata_05a_with_embeddings.h5ad'
+  #   dst: '/home/workstation/Projects/project_DEG/data/integrated_adata/adata_05a_with_embeddings.h5ad' #dst must be the file path, not the directory path
+  - src: /home/workstation/Projects/annotation/adata_RR_post_nonresponder_n_neighbors_7_resolution_2.h5ad
+    dst: /home/workstation/Projects/project_DEG/data/sliced_adata/adata_RR_post_nonresponder_n_neighbors_7_resolution_2.h5ad
+  - src: /home/workstation/Projects/annotation/adata_RR_pre_nonresponder_n_neighbors_7_resolution_2.h5ad
+    dst: /home/workstation/Projects/project_DEG/data/sliced_adata/adata_RR_pre_nonresponder_n_neighbors_7_resolution_2.h5ad
+  - src: /home/workstation/Projects/annotation/adata_RR_pre_responder_n_neighbors_7_resolution_1.h5ad
+    dst: /home/workstation/Projects/project_DEG/data/sliced_adata/adata_RR_pre_responder_n_neighbors_7_resolution_1.h5ad
+
